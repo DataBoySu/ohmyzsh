@@ -1,6 +1,6 @@
 <!--START_SECTION:navbar-->
 <div align="center">
-  <a href="../README.md">🇺🇸 English</a> | <a href="README.de.md">🇩🇪 Deutsch</a> | <a href="README.fr.md">🇫🇷 Français</a> | <a href="README.hi.md">🇮🇳 हिंदी</a> | <a href="README.ja.md">🇯🇵 日本語</a> | <a href="README.ko.md">🇰🇷 한국어</a> | <a href="README.pt.md">🇵🇹 Português</a> | <a href="README.ru.md">🇷🇺 Русский</a> | <a href="README.zh.md">🇨🇳 中文</a>
+  <a href="../README.md">🇺🇸 English</a> | <a href="README.de.md">🇩🇪 Deutsch</a> | <a href="README.es.md">🇪🇸 Español</a> | <a href="README.fr.md">🇫🇷 Français</a> | <a href="README.hi.md">🇮🇳 हिंदी</a> | <a href="README.ja.md">🇯🇵 日本語</a> | <a href="README.ko.md">🇰🇷 한국어</a> | <a href="README.pt.md">🇵🇹 Português</a> | <a href="README.ru.md">🇷🇺 Русский</a> | <a href="README.zh.md">🇨🇳 中文</a>
 </div>
 <!--END_SECTION:navbar-->
 
@@ -80,10 +80,10 @@ Oh My Zsh 是一个开源、社区驱动的框架，用于管理你的 [zsh](htt
 
 ### 先决条件
 
-- [Zsh](https://www.zsh.org) 应该已安装 (v4.3.9 或更新版本都可以，但我们推荐 5.0.8 及以上版本)。如果没有预安装 (运行 `zsh --version` 来确认)，请查看此处的维基指南：
+- [Zsh](https://www.zsh.org) 应该已安装（v4.3.9 或更新版本都可以，但我们推荐 5.0.8 及以上版本）。如果没有预装（运行 `zsh --version` 来确认），请查看此处的维基指南：
   [安装 ZSH](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 - 应该已安装 `curl` 或 `wget`
-- 应该已安装 `git` (推荐 v2.4.11 或更高版本)
+- 应该已安装 `git`（推荐 v2.4.11 或更高版本）
 
 ### 基本安装
 
@@ -95,7 +95,7 @@ Oh My Zsh 是一个开源、社区驱动的框架，用于管理你的 [zsh](htt
 | **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
 | **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
 
-另外，安装程序也镜像在 GitHub 之外。如果你所在的国家（如中国或印度）某些 ISP 阻止了 `raw.githubusercontent.com`，使用此 URL 可能是必需的：
+另外，安装程序也镜像在 GitHub 之外。如果你所在的国家（如中国或印度）某些 ISP 阻止了 `raw.githubusercontent.com`，则可能需要使用此 URL：
 
 | 方法    | 命令 |
 | :------ | :--------------------------------------------- |
@@ -103,7 +103,7 @@ Oh My Zsh 是一个开源、社区驱动的框架，用于管理你的 [zsh](htt
 | **wget**  | `sh -c "$(wget -O- https://install.ohmyz.sh/)"`   |
 | **fetch** | `sh -c "$(fetch -o - https://install.ohmyz.sh/)"` |
 
-任何之前的 `.zshrc` 文件将被重命名为 `.zshrc.pre-oh-my-zsh`。安装后，你可以将想要保留的配置移动到新的 `.zshrc` 文件中。
+任何之前的 `.zshrc` 文件将被重命名为 `.zshrc.pre-oh-my-zsh`。安装完成后，你可以将想要保留的配置移动到新的 `.zshrc` 文件中。
 
 #### 手动检查
 
@@ -146,11 +146,11 @@ plugins=(
   ruby
 ```
 
-请注意，插件之间用空格分隔（空格、制表符、换行等）。**不要**在它们之间使用逗号，否则会导致错误。
+请注意插件之间用空白符（空格、制表符、换行等）分隔。**不要**在它们之间使用逗号，否则会导致错误。
 
 #### 使用插件
 
-每个内置插件都包含一个 **README**，用于记录该插件。此 README 应显示该插件的别名（如果插件添加了任何别名）以及包含在该特定插件中的额外功能。
+每个内置插件都包含一个 **README**，用于记录该插件。此 README 应显示该插件的别名（如果插件添加了任何别名）以及包含在该插件中的额外功能。
 
 ### 主题
 
@@ -167,7 +167,7 @@ Robby 的主题是默认主题。它不是最花哨的，也不是最简单的�
 ZSH_THEME="robbyrussell"
 ```
 
-要使用不同的主题，请将值更改为所需主题的名称。例如：
+要使用不同的主题，只需将值更改为所需主题的名称。例如：
 
 ```sh
 ZSH_THEME="agnoster" # (this is one of the fancy ones)
@@ -223,7 +223,7 @@ ZSH_THEME_RANDOM_IGNORED=(pygmalion tjkirch_mod)
 
 ### FAQ
 
-如果您还有其他问题或遇到问题，您可能可以在我们的
+如果还有其他问题或疑问，你可能会在我们的
 [FAQ](https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ) 中找到解决方案。
 
 ## 高级主题
@@ -236,10 +236,10 @@ ZSH_THEME_RANDOM_IGNORED=(pygmalion tjkirch_mod)
 
 #### 自定义目录
 
-默认位置是 `~/.oh-my-zsh`（位于你的主目录中，隐藏文件夹，你可以通过
-`cd ~/.oh-my-zsh` 进入）
+默认位置是 `~/.oh-my-zsh`（位于您的主目录中，您可以通过
+`cd ~/.oh-my-zsh` 访问）
 
-如果你想通过 `ZSH` 环境变量更改安装目录，可以在安装前运行
+如果您想通过 `ZSH` 环境变量更改安装目录，可以在安装前运行
 `export ZSH=/your/path`，或者在安装流程结束前设置它，如下所示：
 
 ```sh
@@ -254,7 +254,7 @@ ZSH="$HOME/.dotfiles/oh-my-zsh" sh install.sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 ```
 
-如果你在中国、印度或其他阻止 `raw.githubusercontent.com` 的国家，你可能需要将其替换为 `https://install.ohmyz.sh` 以进行安装。
+如果你在中国、印度或其他屏蔽 `raw.githubusercontent.com` 的国家，可能需要将其替换为 `https://install.ohmyz.sh` 以完成安装。
 
 #### 从分支的仓库安装
 
@@ -306,7 +306,7 @@ cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
 chsh -s $(which zsh)
 ```
 
-你必须从用户会话中注销并重新登录才能看到此更改。
+您必须从用户会话中注销并重新登录才能看到此更改。
 
 ##### 5. Initialize Your New Zsh Configuration <!-- omit in toc -->
 
@@ -316,16 +316,16 @@ chsh -s $(which zsh)
 
 如果你在安装过程中遇到任何问题，这里有一些常见的解决方法。
 
-- 如果你在切换到 `oh-my-zsh` 后无法找到某些命令，可能需要修改 `~/.zshrc` 中的 `PATH`。
+- 如果在切换到 `oh-my-zsh` 后无法找到某些命令，你_可能_需要修改 `~/.zshrc` 中的 `PATH`。
 - 如果你是手动安装或更改了安装位置，请检查 `~/.zshrc` 中的 `ZSH` 环境变量。
 
 ### 自定义插件和主题
 
 如果你想覆盖任何默认行为，只需在 `custom/` 目录中添加一个以 `.zsh` 结尾的新文件。
 
-如果你有很多可以很好地组合在一起的函数，可以将它们作为 `XYZ.plugin.zsh` 文件放在 `custom/plugins/` 目录中，然后启用此插件。
+如果你有很多可以很好地一起使用的函数，可以将它们作为 `XYZ.plugin.zsh` 文件放在 `custom/plugins/` 目录中，然后启用此插件。
 
-如果你想覆盖 Oh My Zsh 随附插件的功能，请在 `custom/plugins/` 目录中创建一个同名的插件，它将加载而不是 `plugins/` 中的那个。
+如果你想覆盖 Oh My Zsh 随附插件的功能，请在 `custom/plugins/` 目录中创建一个同名的插件，它将被加载而不是 `plugins/` 中的那个。
 
 ### 启用 macOS 和 freeBSD 系统中的 GNU ls
 
@@ -343,7 +343,7 @@ zstyle ':omz:lib:theme-and-appearance' gnu-ls yes
 
 <a name="remove-directories-aliases"></a>
 
-如果你想跳过默认的 Oh My Zsh 别名（那些在 `lib/*` 文件中定义的）或插件别名，你可以在 `~/.zshrc` 文件中使用以下设置，**在 Oh My Zsh 加载之前**。请注意，根据你的需求，跳过别名有很多不同的方法。
+如果你想跳过默认的 Oh My Zsh 别名（那些在 `lib/*` 文件中定义的）或插件别名，你可以在 `~/.zshrc` 文件中使用以下设置，**在 Oh My Zsh 被加载之前**。请注意，根据你的需求，跳过别名有很多不同的方法。
 
 ```sh
 # Skip all aliases, in lib files and enabled plugins
@@ -360,7 +360,7 @@ zstyle ':omz:plugins:*' aliases no
 zstyle ':omz:plugins:git' aliases no
 ```
 
-你可以通过其他方式组合这些内容，但需注意更具体的范围具有优先级：
+你可以通过其他方式组合这些，但需注意更具体的范围具有优先级：
 
 ```sh
 # Skip all plugin aliases, except for the git plugin
@@ -384,11 +384,11 @@ zstyle ':omz:lib:directories' aliases no
 
 > 此功能目前处于测试阶段，未来可能会发生变化。它目前还不兼容插件管理器，如 zpm 或 zinit，这些管理器不会加载 init 脚本（`oh-my-zsh.sh`），而该功能正是在此脚本中实现的。
 
-> 它目前还无法识别以函数形式定义的 "别名"。例如，来自 git 插件的 `gccd`、`ggf` 或 `ggl` 函数。
+> 它目前还无法识别作为函数定义的 "别名"。例如，来自 git 插件的 `gccd`、`ggf` 或 `ggl` 函数。
 
 ### 异步 git 提示
 
-异步提示函数是一个实验性功能（于 2024 年 4 月 3 日添加），允许 Oh My Zsh 异步渲染
+异步提示函数是一个实验性功能（于 2024 年 4 月 3 日加入），允许 Oh My Zsh 异步渲染
 提示信息。这可以提高提示渲染性能，但可能与某些设置不兼容。
 我们希望这不是一个问题，但如果你在使用此新功能时遇到问题，可以通过在 Oh My Zsh 被加载之前，在你的 .zshrc 文件中设置以下内容来关闭它：
 
@@ -396,7 +396,7 @@ zstyle ':omz:lib:directories' aliases no
 zstyle ':omz:alpha:lib:git' async-prompt no
 ```
 
-如果您的问题是 git 提示符突然不再显示，可以尝试在 `oh-my-zsh.sh` 被加载之前设置以下配置来强制启用。如果仍然无法解决问题，请用您的情况打开一个 issue。
+如果您的问题是 git 提示符突然不再显示，可以尝试在加载 `oh-my-zsh.sh` 之前设置以下配置来强制启用。如果仍然无法解决问题，请用您的情况打开一个 issue。
 
 ```sh
 zstyle ':omz:alpha:lib:git' async-prompt force
@@ -489,7 +489,7 @@ Oh My Zsh 并不适合每个人。我们会想念你的，但希望这个过程�
 
 ### 请勿向我们发送主题
 
-目前我们已经有（超过）足够的主题。请将你的主题添加到
+我们目前已经有足够的主题了。请将你的主题添加到
 [外部主题](https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes)维基页面。
 
 ## 贡献者
@@ -504,17 +504,17 @@ Oh My Zsh 拥有一个充满活力的社区，有众多快乐的用户和令人�
 
 ## Follow Us
 
-我们可以在社交媒体上找到：
+我们有社交媒体账号：
 
-- 在 [X](https://x.com/ohmyzsh)（原 Twitter）上关注 [@ohmyzsh](https://x.com/ohmyzsh)。你应该关注它。
-- 在 [Facebook](https://www.facebook.com/Oh-My-Zsh-296616263819290/) 上 [ poke us ](https://www.facebook.com/Oh-My-Zsh-296616263819290/)。
-- 在 [Instagram](https://www.instagram.com/_ohmyzsh/) 上标记我们，展示你的 Oh My Zsh！帖子。
-- 在 [Discord](https://discord.gg/ohmyzsh) 上与我们聊天！
+- [X](https://x.com/ohmyzsh) 上的 [@ohmyzsh](https://x.com/ohmyzsh)。你应该关注它。
+- [Facebook](https://www.facebook.com/Oh-My-Zsh-296616263819290/) 上的 [Facebook](https://www.facebook.com/Oh-My-Zsh-296616263819290/)。来戳我们。
+- [Instagram](https://www.instagram.com/_ohmyzsh/) 上的 [Instagram](https://www.instagram.com/_ohmyzsh/)。在展示 Oh My Zsh! 的帖子中提到我们。
+- [Discord](https://discord.gg/ohmyzsh) 上的 [Discord](https://discord.gg/ohmyzsh)。来和我们聊天！
 
 ## 商品
 
 我们有
-[贴纸、T恤和马克杯可供选择](https://commitgoods.com/collections/oh-my-zsh?utm_source=github)
+[贴纸、T恤和咖啡杯可供选择](https://commitgoods.com/collections/oh-my-zsh?utm_source=github)
 ，让你展示对 Oh My Zsh 的热爱。再次强调，你将成为镇上的话题！
 
 ## 许可证

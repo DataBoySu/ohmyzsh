@@ -1,6 +1,6 @@
 <!--START_SECTION:navbar-->
 <div align="center">
-  <a href="../README.md">🇺🇸 English</a> | <a href="README.de.md">🇩🇪 Deutsch</a> | <a href="README.fr.md">🇫🇷 Français</a> | <a href="README.hi.md">🇮🇳 हिंदी</a> | <a href="README.ja.md">🇯🇵 日本語</a> | <a href="README.ko.md">🇰🇷 한국어</a> | <a href="README.pt.md">🇵🇹 Português</a> | <a href="README.ru.md">🇷🇺 Русский</a> | <a href="README.zh.md">🇨🇳 中文</a>
+  <a href="../README.md">🇺🇸 English</a> | <a href="README.de.md">🇩🇪 Deutsch</a> | <a href="README.es.md">🇪🇸 Español</a> | <a href="README.fr.md">🇫🇷 Français</a> | <a href="README.hi.md">🇮🇳 हिंदी</a> | <a href="README.ja.md">🇯🇵 日本語</a> | <a href="README.ko.md">🇰🇷 한국어</a> | <a href="README.pt.md">🇵🇹 Português</a> | <a href="README.ru.md">🇷🇺 Русский</a> | <a href="README.zh.md">🇨🇳 中文</a>
 </div>
 <!--END_SECTION:navbar-->
 
@@ -12,11 +12,11 @@ Oh My Zsh는 [zsh](https://www.zsh.org/) 구성 관리에 사용되는 오픈소
 
 **Oh My Zsh은 당신을 10배 더 생산적인 개발자로 만들지는 않지만, 그렇게 느끼게 될 수도 있습니다.**
 
-설치 후, 터미널 쉘은 도시의 화제가 될 것입니다 _혹은 환불해 드리겠습니다!_ 명령 프롬프트에서의 각 키 입력마다, 수백 개의 강력한 플러그인과 아름다운 테마를 활용하게 됩니다. 카페에서 낯선 사람이 당신에게 다가와 _"정말 인상적이네요! 당신은 유전자가 특별한 사람인가요?"_라고 묻게 될 것입니다.
+설치 후, 당신의 터미널 쉘은 도시의 화제가 될 것입니다 _혹은 환불해 드리겠습니다!_ 명령 프롬프트에서의 각 키 입력마다, 수백 개의 강력한 플러그인과 아름다운 테마를 활용하게 됩니다. 카페에서 낯선 사람이 당신에게 다가와 _"정말 인상적이네요! 당신은 어떤 천재인가요?"_라고 묻게 될 것입니다.
 
-마침내, 당신은 항상 느꼈던 것처럼 주목받는 존재가 될 것입니다. ...혹은 절약한 시간을 활용해 더 자주 치실을 하게 될 수도 있습니다. 😬
+마침내, 당신은 항상 느꼈던 그 정도의 주목을 받게 될 것입니다. ...혹은 절약한 시간을 활용해 더 자주 치실을 하게 될 수도 있습니다. 😬
 
-더 알아보려면 [ohmyz.sh](https://ohmyz.sh)를 방문하거나, X(구 트위터)에서 [@ohmyzsh](https://x.com/ohmyzsh)를 팔로우하고, [Discord](https://discord.gg/ohmyzsh)에서 우리와 함께 하세요.
+더 알아보려면 [ohmyz.sh](https://ohmyz.sh)를 방문하거나, X(구 트위터)에서 [@ohmyzsh](https://x.com/ohmyzsh)를 팔로우하고, [Discord](https://discord.gg/ohmyzsh)에서 우리와 함께하세요.
 
 [![CI](https://github.com/ohmyzsh/ohmyzsh/workflows/CI/badge.svg)](https://github.com/ohmyzsh/ohmyzsh/actions?query=workflow%3ACI)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10713/badge)](https://www.bestpractices.dev/projects/10713)
@@ -66,7 +66,7 @@ Oh My Zsh는 [zsh](https://www.zsh.org/) 구성 관리에 사용되는 오픈소
 
 ## 시작하기
 
-### 운영체제 호환성
+### 운영 체제 호환성
 
 | O/S            | 상태   |
 | :------------- | :----: |
@@ -80,14 +80,14 @@ Oh My Zsh는 [zsh](https://www.zsh.org/) 구성 관리에 사용되는 오픈소
 
 ### 필수 조건
 
-- [Zsh](https://www.zsh.org)가 설치되어 있어야 합니다 (v4.3.9 이상은 충분하지만, 5.0.8 이상을 선호합니다). 미리 설치되어 있지 않은 경우 (`zsh --version` 명령어로 확인할 수 있음), 여기서 다음 위키 지침을 확인하세요:
+- [Zsh](https://www.zsh.org)가 설치되어 있어야 합니다 (v4.3.9 이상은 충분하지만, 우리는 5.0.8 이상을 선호합니다). 미리 설치되어 있지 않은 경우 (`zsh --version` 명령어로 확인할 수 있음), 여기서 다음 위키 지침을 확인하세요:
   [ZSH 설치](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH)
 - `curl` 또는 `wget`이 설치되어 있어야 합니다
 - `git`이 설치되어 있어야 합니다 (v2.4.11 이상 권장)
 
 ### 기본 설치
 
-Oh My Zsh는 터미널에서 다음 명령어 중 하나를 실행하여 설치합니다. 이는 `curl`, `wget` 또는 유사한 도구를 사용하여 명령줄에서 설치할 수 있습니다.
+Oh My Zsh는 터미널에서 다음 명령어 중 하나를 실행하여 설치할 수 있습니다. 이는 `curl`, `wget` 또는 유사한 도구를 사용하여 명령줄에서 설치할 수 있습니다.
 
 | 방법    | 명령                           |
 | :------ | :---------------------------- |
@@ -103,7 +103,7 @@ Oh My Zsh는 터미널에서 다음 명령어 중 하나를 실행하여 설치�
 | **wget**  | `sh -c "$(wget -O- https://install.ohmyz.sh/)"`   |
 | **fetch** | `sh -c "$(fetch -o - https://install.ohmyz.sh/)"` |
 
-이전의 `.zshrc` 파일은 `.zshrc.pre-oh-my-zsh`로 이름이 변경됩니다. 설치 후, 보존하고 싶은 설정은 새 `.zshrc` 파일로 이동할 수 있습니다.
+이전의 `.zshrc` 파일은 `.zshrc.pre-oh-my-zsh`로 이름이 변경됩니다. 설치 후, 보존하고 싶은 설정은 새롭게 생성된 `.zshrc` 파일로 이동할 수 있습니다.
 
 #### 수동 검사
 
@@ -114,13 +114,13 @@ wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sh install.sh
 ```
 
-위의 URL이 시간 초과되거나 기타 이유로 실패하는 경우, 스크립트를 받을 수 있도록 `https://install.ohmyz.sh`로 URL을 대체해야 할 수도 있습니다.
+위의 URL이 시간 초과되거나 기타 이유로 실패하는 경우, 스크립트를 받을 수 있도록 URL을 `https://install.ohmyz.sh`로 대체해야 할 수도 있습니다.
 
 ## Oh My Zsh 사용
 
 ### 플러그인
 
-Oh My Zsh에는 사용할 수 있는 플러그인으로 가득 차 있습니다. [plugins](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins) 디렉토리와/또는 [wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)에서 현재 사용 가능한 항목을 확인할 수 있습니다.
+Oh My Zsh에는 사용자가 활용할 수 있는 많은 플러그인이 포함되어 있습니다. [plugins](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins) 디렉토리와/또는 [wiki](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)에서 현재 제공되는 항목을 확인할 수 있습니다.
 
 #### 플러그인 활성화
 
@@ -143,7 +143,7 @@ plugins=(
   ruby
 ```
 
-플러그인은 공백(공백, 탭, 줄 바꿈 등)으로 구분됩니다. **사용하지 마세요** 중간에 쉼표를 사용하면 작동하지 않습니다.
+플러그인은 공백(공백, 탭, 줄 바꿈 등)으로 분리되어 있습니다. **사용하지 마세요** 사이에 쉼표를 사용하면 작동하지 않습니다.
 
 #### 플러그인 사용
 
@@ -151,20 +151,20 @@ plugins=(
 
 ### 테마
 
-우리는 인정할게요. Oh My Zsh의 초기 시절, 우리는 테마에 너무 열정적으로 빠져 있었을지도 모릅니다. 지금은 150개 이상의 테마가 포함되어 있습니다. 그 중 대부분은
-[screenshots](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)에 있는 위키에 있습니다 (이 부분은 업데이트 중입니다!). 확인해 보세요!
+우리는 인정할게요. Oh My Zsh의 초기 시절, 우리는 테마에 너무 열정적으로 빠져 있었죠. 지금은 150개 이상의 테마가 포함되어 있습니다. 그 중 대부분은
+[screenshots](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) 위키에 있습니다 (이 부분은 업데이트 중입니다!). 확인해 보세요!
 
 #### 테마 선택
 
-로비의 테마는 기본 테마입니다. 가장 화려한 것도 아니고, 가장 간단한 것도 아닙니다. 그냥 그에게 적절한 테마일 뿐입니다.
+Robby의 테마는 기본 테마입니다. 가장 화려한 것도 아니고, 가장 간단한 것도 아닙니다. 그냥 그에게 적절한 테마일 뿐입니다.
 
-원하는 테마를 찾았다면 `~/.zshrc` 파일을 편집해야 합니다. 거기에는 다음과 같은 형태의 환경 변수(대문자)가 있습니다:
+원하는 테마를 찾은 후에는 `~/.zshrc` 파일을 편집해야 합니다. 거기에는 다음과 같은 형태의 환경 변수(대문자)가 있습니다:
 
 ```sh
 ZSH_THEME="robbyrussell"
 ```
 
-다른 테마를 사용하려면 값을 원하는 테마의 이름과 일치하도록 변경만 하면 됩니다. 예를 들어:
+다른 테마를 사용하려면 값을 원하는 테마의 이름과 일치하도록 변경하면 됩니다. 예를 들어:
 
 ```sh
 ZSH_THEME="agnoster" # (this is one of the fancy ones)
@@ -225,17 +225,17 @@ If you have some more questions or issues, you might find a solution in our
 
 ## 고급 주제
 
-손을 더럽히는 것을 좋아하는 유형이라면, 이러한 섹션들이 당신에게 공명할 수 있습니다.
+손을 더럽히는 것을 좋아하는 유형이라면, 이러한 섹션들이 당신에게 공감할 것입니다.
 
 ### 고급 설치
 
-일부 사용자는 Oh My Zsh을 수동으로 설치하거나, 설치 프로그램이 수락하는 기본 경로나 기타 설정을 변경하고자 할 수 있습니다(이러한 설정은 설치 스크립트의 맨 위에 문서화되어 있습니다).
+일부 사용자는 Oh My Zsh을 수동으로 설치하거나, 설치 프로그램이 수용하는 기본 경로나 기타 설정을 변경하고자 할 수 있습니다(이러한 설정은 설치 스크립트의 맨 위에 문서화되어 있습니다).
 
 #### 커스텀 디렉토리
 
 기본 위치는 `~/.oh-my-zsh`입니다 (홈 디렉토리에 숨겨져 있으며, `cd ~/.oh-my-zsh`로 접근할 수 있습니다)
 
-`ZSH` 환경 변수를 사용하여 설치 디렉토리를 변경하고자 한다면, 설치 전에 `export ZSH=/your/path`를 실행하거나, 설치 파이프라인의 끝 부분에서 다음과 같이 설정할 수 있습니다:
+`ZSH` 환경 변수를 사용하여 설치 디렉토리를 변경하고자 한다면, 설치 전에 `export ZSH=/your/path`를 실행하거나, 설치 파이프라인 종료 전에 다음과 같이 설정할 수 있습니다:
 
 ```sh
 ZSH="$HOME/.dotfiles/oh-my-zsh" sh install.sh
@@ -243,7 +243,7 @@ ZSH="$HOME/.dotfiles/oh-my-zsh" sh install.sh
 
 #### 무인 설치
 
-자동 설치의 일부로 Oh My Zsh 설치 스크립트를 실행하고 있다면 `install.sh` 스크립트에 `--unattended` 플래그를 전달할 수 있습니다. 이는 기본 쉘을 변경하려는 시도를 하지 않으며, 설치가 완료된 후 `zsh`을 실행하지 않도록 합니다.
+자동 설치의 일부로 Oh My Zsh 설치 스크립트를 실행하고 있다면 `install.sh` 스크립트에 `--unattended` 플래그를 전달할 수 있습니다. 이는 기본 쉘을 변경하지 않도록 하며, 설치가 완료된 후 `zsh`을 실행하지 않도록 합니다.
 
 ```sh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
@@ -253,13 +253,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 #### forked 저장소에서 설치
 
-설치 스크립트는 또한 다른 저장소에서 설치할 수 있도록 허용하는 변수를 수락합니다:
+설치 스크립트는 또한 다른 저장소에서 설치할 수 있도록 허용하기 위해 이러한 변수를 수락합니다:
 
-- `REPO` (기본값: `ohmyzsh/ohmyzsh`): 이는 `소유자/저장소` 형식을 취합니다. 이 변수를 설정하면,
-  설치자는 `https://github.com/{소유자}/{저장소}`에 있는 저장소를 찾습니다.
+- `REPO` (기본값: `ohmyzsh/ohmyzsh`): 이는 `owner/repository` 형식을 취합니다. 이 변수를 설정하면,
+  설치자는 `https://github.com/{owner}/{repository}`에 있는 저장소를 찾습니다.
 
 - `REMOTE` (기본값: `https://github.com/${REPO}.git`): 이는 git 저장소 복제의 전체 URL입니다. 
-  GitHub이 아닌 저장소(fork)에서 설치하고 싶거나 SSH를 사용하여 복제하고 싶은 경우 이 설정을 사용할 수 있습니다(`git@github.com:user/project.git`).
+  GitHub이 아닌 fork(예: GitLab, Bitbucket 등)에서 설치하거나 SSH 대신 HTTPS 대신 복제하고 싶은 경우
+  이 설정을 사용할 수 있습니다(`git@github.com:user/project.git`).
 
   _참고: `REPO` 변수를 설정하는 것과 호환되지 않습니다. 이 설정이 우선권을 가집니다._
 
@@ -317,7 +318,7 @@ chsh -s $(which zsh)
 
 기본 동작을 재정의하고 싶다면, `custom/` 디렉토리에 `.zsh`로 끝나는 새 파일을 추가하면 됩니다.
 
-함수가 여러 개 있고 잘 어울리는 경우, `custom/plugins/` 디렉토리에 `XYZ.plugin.zsh` 파일로 넣고, 그 플러그인을 활성화하면 됩니다.
+함수가 여러 개 있고 잘 어울리는 경우, `custom/plugins/` 디렉토리에 `XYZ.plugin.zsh` 파일로 넣고, 이 플러그인을 활성화하면 됩니다.
 
 Oh My Zsh에 포함된 플러그인의 기능을 재정의하고 싶다면, `custom/plugins/` 디렉토리에 동일한 이름의 플러그인을 생성하면 `plugins/` 디렉토리에 있는 플러그인 대신에 로드됩니다.
 
@@ -337,7 +338,7 @@ zstyle ':omz:lib:theme-and-appearance' gnu-ls yes
 
 <a name="remove-directories-aliases"></a>
 
-기본 Oh My Zsh 별칭(예: `lib/*` 파일에 정의된 별칭) 또는 플러그인 별칭을 건너뛰고 싶다면, Oh My Zsh이 로드되기 **전에** `~/.zshrc` 파일에 아래 설정을 사용할 수 있습니다. 별칭을 건너뛰는 방법은 요구사항에 따라 여러 가지가 있으므로 참고하시기 바랍니다.
+기본 Oh My Zsh 별칭(예: `lib/*` 파일에 정의된 별칭) 또는 플러그인 별칭을 건너뛰고 싶다면, Oh My Zsh이 로드되기 **전에** `~/.zshrc` 파일에 아래 설정을 사용할 수 있습니다. 필요에 따라 별칭을 건너뛰는 방법은 여러 가지가 있으므로 주의하십시오.
 
 ```sh
 # Skip all aliases, in lib files and enabled plugins
@@ -354,7 +355,7 @@ zstyle ':omz:plugins:*' aliases no
 zstyle ':omz:plugins:git' aliases no
 ```
 
-이러한 범위를 다른 방식으로 결합할 수 있으며, 더 구체적인 범위가 우선권을 갖는다는 점을 고려해야 합니다:
+이러한 범위를 다른 방식으로 결합할 수 있으며, 더 구체적인 범위가 우선권을 갖는다는 점을 고려해야 합니다.
 
 ```sh
 # Skip all plugin aliases, except for the git plugin
@@ -378,7 +379,7 @@ zstyle ':omz:lib:directories' aliases no
 
 > 이 기능은 현재 테스트 단계에 있으며, 향후 변경될 수 있습니다. 또한, zpm 또는 zinit과 같은 플러그인 관리자와 호환되지 않습니다. 이 기능은 init 스크립트(`oh-my-zsh.sh`)에서 구현되어 있기 때문입니다. 이 스크립트는 플러그인 관리자에 의해 소스되지 않습니다.
 
-> 또한, 함수로 정의된 "별칭(aliases)"을 인식하지 못합니다. 예를 들어, git 플러그인에서 제공하는 `gccd`, `ggf`, 또는 `ggl` 함수가 이에 해당합니다.
+> 또한, 함수로 정의된 "aliases"를 인식하지 못합니다. 예를 들어, git 플러그인에서 제공하는 `gccd`, `ggf`, 또는 `ggl` 함수가 이에 해당합니다.
 
 ### Async git prompt
 
@@ -391,7 +392,7 @@ turn it off by setting the following in your .zshrc file, before Oh My Zsh is so
 zstyle ':omz:alpha:lib:git' async-prompt no
 ```
 
-문제가 git 프롬프트가 갑자기 나타나지 않는 것이라면, `oh-my-zsh.sh`가 소스화되기 전에 다음 설정을 강제로 적용해 보세요. 여전히 작동하지 않는다면, 상황을 기술한 이슈를 열어 주세요.
+문제가 git 프롬프트가 갑자기 나타나지 않는 것이라면, `oh-my-zsh.sh`가 소스화되기 전에 다음 설정을 강제로 적용해 보세요. 여전히 작동하지 않는다면, 상황을 기반으로 이슈를 열어 주세요.
 
 ```sh
 zstyle ':omz:alpha:lib:git' async-prompt force
@@ -399,9 +400,9 @@ zstyle ':omz:alpha:lib:git' async-prompt force
 
 ## 업데이트 받기
 
-기본적으로 2주마다 업데이트를 확인하도록 안내받습니다. Oh My Zsh이 로드되기 **전에** `~/.zshrc` 파일에 줄을 추가하여 다른 업데이트 모드를 선택할 수 있습니다:
+기본적으로 2주마다 업데이트를 확인하는지 묻는 메시지가 표시됩니다. Oh My Zsh이 로드되기 **전에** `~/.zshrc` 파일에 줄을 추가하여 다른 업데이트 모드를 선택할 수 있습니다:
 
-1. 확인 프롬프트 없이 자동 업데이트:
+1. 확인 메시지 없이 자동 업데이트:
 
 ```sh
    zstyle ':omz:update' mode auto
@@ -459,27 +460,27 @@ omz update
 > ```
 
 >
-> See more options in the [FAQ: How do I update Oh My Zsh?](https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-update-oh-my-zsh).
+> FAQ: How do I update Oh My Zsh?](https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ#how-do-i-update-oh-my-zsh)에서 더 많은 옵션을 확인하세요.
 >
-> **`omz update --unattended`의 사용은 제거되었습니다. 이는 부작용이 있기 때문입니다.**.
+> **`omz update --unattended`의 사용은 부작용이 있기 때문에 제거되었습니다**.
 
-Magic! 🎉
+마법! 🎉
 
 ## Oh My Zsh 비우전
 
 Oh My Zsh는 모든 사람에게 적합하지 않습니다. 떠나게 되어 안타깝지만, 이 과정을 쉽게 만들어 드리고자 합니다.
 
-`oh-my-zsh`를 비우전하려면 명령행에서 `uninstall_oh_my_zsh`를 실행하면 됩니다. 이는 자신을 제거하고 이전의 `bash` 또는 `zsh` 설정으로 되돌릴 것입니다.
+`oh-my-zsh`를 비우전하려면 명령줄에서 `uninstall_oh_my_zsh`를 실행하면 됩니다. 이는 자신을 제거하고 이전의 `bash` 또는 `zsh` 설정으로 되돌릴 것입니다.
 
 ## Oh My Zsh에 기여하는 방법은?
 
 우리의 즐거운 커뮤니티에 참여하기 전에 [코드 오브 컨덕트](../CODE_OF_CONDUCT.md)를 읽어보세요.
 
-저는 [Zsh](https://www.zsh.org/) 전문가가 아니며, 개선할 수 있는 방법이 많다고 생각합니다. 구성이 더 쉽게 유지되고 더 빠르게 될 수 있도록 아이디어가 있다면, 망설이지 말고 fork하고 pull request를 보내주세요!
+저는 [Zsh](https://www.zsh.org/) 전문가가 아니며, 개선할 수 있는 방법이 많다고 생각합니다. 구성이 더 쉽게 유지되고 빠르게 될 수 있도록 아이디어가 있다면 주저하지 말고 fork하고 pull request를 보내주세요!
 
 pull request를 테스트할 사람도 필요합니다. 따라서 [열린 이슈](https://github.com/ohmyzsh/ohmyzsh/issues)를 살펴보고 도움이 필요한 곳에서 도와주세요.
 
-자세한 내용은 [Contributing](../CONTRIBUTING.md)을 참조하세요.
+자세한 내용은 [기여하기](../CONTRIBUTING.md)를 참조하세요.
 
 ### 우리에게 테마를 보내지 마세요
 
@@ -487,7 +488,7 @@ pull request를 테스트할 사람도 필요합니다. 따라서 [열린 이슈
 
 ## 기여자
 
-Oh My Zsh에는 행복한 사용자들과 즐거운 기여자들이 모여 있는 생기勃勃한 커뮤니티가 있습니다. 기여자들이 제공한 시간과 도움 없이도 Oh My Zsh는 이렇게 멋지지 못했을 것입니다.
+Oh My Zsh에는 행복한 사용자들과 즐거운 기여자들이 모인 생생한 커뮤니티가 있습니다. 기여자들이 제공한 시간과 도움 없이도 Oh My Zsh는 이렇게 멋진 프로젝트가 될 수 없었을 것입니다.
 
 정말 감사합니다!
 
@@ -499,10 +500,10 @@ Oh My Zsh에는 행복한 사용자들과 즐거운 기여자들이 모여 있�
 
 우리는 소셜 미디어에 있습니다:
 
-- X (구 트위터)에서 [@ohmyzsh](https://x.com/ohmyzsh)를 팔로우하세요. 팔로우해야 합니다.
+- X (구 트위터)에 [@ohmyzsh](https://x.com/ohmyzsh) 계정을 팔로우하세요.
 - [Facebook](https://www.facebook.com/Oh-My-Zsh-296616263819290/)에서 우리를 펑크하세요.
 - [Instagram](https://www.instagram.com/_ohmyzsh/)에서 Oh My Zsh!를 보여주는 게시물에 우리를 태그하세요.
-- [Discord](https://discord.gg/ohmyzsh)에서 우리와 채팅하세요!
+- [Discord](https://discord.gg/ohmyzsh)에서 우리와 대화해보세요!
 
 ## 상품
 

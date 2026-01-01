@@ -1,6 +1,6 @@
 <!--START_SECTION:navbar-->
 <div align="center">
-  <a href="../README.md">🇺🇸 English</a> | <a href="README.de.md">🇩🇪 Deutsch</a> | <a href="README.fr.md">🇫🇷 Français</a> | <a href="README.hi.md">🇮🇳 हिंदी</a> | <a href="README.ja.md">🇯🇵 日本語</a> | <a href="README.ko.md">🇰🇷 한국어</a> | <a href="README.pt.md">🇵🇹 Português</a> | <a href="README.ru.md">🇷🇺 Русский</a> | <a href="README.zh.md">🇨🇳 中文</a>
+  <a href="../README.md">🇺🇸 English</a> | <a href="README.de.md">🇩🇪 Deutsch</a> | <a href="README.es.md">🇪🇸 Español</a> | <a href="README.fr.md">🇫🇷 Français</a> | <a href="README.hi.md">🇮🇳 हिंदी</a> | <a href="README.ja.md">🇯🇵 日本語</a> | <a href="README.ko.md">🇰🇷 한국어</a> | <a href="README.pt.md">🇵🇹 Português</a> | <a href="README.ru.md">🇷🇺 Русский</a> | <a href="README.zh.md">🇨🇳 中文</a>
 </div>
 <!--END_SECTION:navbar-->
 
@@ -354,13 +354,13 @@ zstyle ':omz:lib:theme-and-appearance' gnu-ls yes
 
 Примечание: это несовместимо с `DISABLE_LS_COLORS=true`
 
-### Skip Aliases
+### Пропуск псевдонимов
 
 <a name="remove-directories-aliases"></a>
 
-If you want to skip default Oh My Zsh aliases (those defined in `lib/*` files) or plugin aliases, you can use
-the settings below in your `~/.zshrc` file, **before Oh My Zsh is loaded**. Note that there are many different
-ways to skip aliases, depending on your needs.
+Если вы хотите пропустить стандартные псевдонимы Oh My Zsh (те, которые определены в файлах `lib/*`) или псевдонимы плагинов, вы можете использовать
+нижеуказанные настройки в файле `~/.zshrc`, **до загрузки Oh My Zsh**. Обратите внимание, что существует множество различных
+способов пропуска псевдонимов, в зависимости от ваших потребностей.
 
 ```sh
 # Skip all aliases, in lib files and enabled plugins
@@ -385,7 +385,7 @@ zstyle ':omz:plugins:*' aliases no
 zstyle ':omz:plugins:git' aliases yes
 ```
 
-A previous version of this feature was using the setting below, which has been removed:
+Предыдущая версия этой функции использовала настройку ниже, которая была удалена:
 
 ```sh
 zstyle ':omz:directories' aliases no

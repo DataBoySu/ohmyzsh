@@ -1,26 +1,23 @@
 <!--START_SECTION:navbar-->
 <div align="center">
-  <a href="../README.md">🇺🇸 English</a> | <a href="README.de.md">🇩🇪 Deutsch</a> | <a href="README.fr.md">🇫🇷 Français</a> | <a href="README.hi.md">🇮🇳 हिंदी</a> | <a href="README.ja.md">🇯🇵 日本語</a> | <a href="README.ko.md">🇰🇷 한국어</a> | <a href="README.pt.md">🇵🇹 Português</a> | <a href="README.ru.md">🇷🇺 Русский</a> | <a href="README.zh.md">🇨🇳 中文</a>
+  <a href="../README.md">🇺🇸 English</a> | <a href="README.de.md">🇩🇪 Deutsch</a> | <a href="README.es.md">🇪🇸 Español</a> | <a href="README.fr.md">🇫🇷 Français</a> | <a href="README.hi.md">🇮🇳 हिंदी</a> | <a href="README.ja.md">🇯🇵 日本語</a> | <a href="README.ko.md">🇰🇷 한국어</a> | <a href="README.pt.md">🇵🇹 Português</a> | <a href="README.ru.md">🇷🇺 Русский</a> | <a href="README.zh.md">🇨🇳 中文</a>
 </div>
 <!--END_SECTION:navbar-->
 
 <p align="center"><img src="https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png" alt="Oh My Zsh"></p>
 
-Oh My Zsh é um framework de código aberto, impulsionado pela comunidade, para gerenciar sua [zsh](https://www.zsh.org/)
-configuração.
+Oh My Zsh é um framework de código aberto, impulsionado pela comunidade, para gerenciar sua configuração do [zsh](https://www.zsh.org/).
 
 Parece chato. Vamos tentar de novo.
 
 **Oh My Zsh não vai tornar você um desenvolvedor 10x...mas você pode se sentir como um.**
 
-Após a instalação, seu terminal shell se tornará o assunto da conversa _ou seu dinheiro de volta!_ Com cada tecla digitada
-em seu prompt de comando, você aproveitará os centenas de plugins poderosos e temas bonitos.
+Após a instalação, seu shell de terminal se tornará o assunto da conversa _ou seu dinheiro de volta!_ Com cada tecla digitada no seu prompt de comando, você aproveitará os centenas de plugins poderosos e temas bonitos.
 Estranhos virão até você em cafés e perguntarão, _"isso é incrível! você é algum tipo de gênio?"_
 
-Finalmente, você começará a receber o tipo de atenção que sempre se sentiu merecendo. ...ou talvez você use o tempo que está economizando para começar a usar fio dental com mais frequência. 😬
+Finalmente, você começará a receber o tipo de atenção que sempre sentiu que merecia. ...ou talvez você use o tempo que está economizando para começar a usar fio dental com mais frequência. 😬
 
-Para aprender mais, visite [ohmyz.sh](https://ohmyz.sh), siga [@ohmyzsh](https://x.com/ohmyzsh) no X (anteriormente
-Twitter) e junte-se a nós no [Discord](https://discord.gg/ohmyzsh).
+Para saber mais, visite [ohmyz.sh](https://ohmyz.sh), siga [@ohmyzsh](https://x.com/ohmyzsh) no X (anteriormente Twitter) e participe conosco no [Discord](https://discord.gg/ohmyzsh).
 
 [![CI](https://github.com/ohmyzsh/ohmyzsh/workflows/CI/badge.svg)](https://github.com/ohmyzsh/ohmyzsh/actions?query=workflow%3ACI)
 [![OpenSSF Best Practices](https://www.bestpractices.dev/projects/10713/badge)](https://www.bestpractices.dev/projects/10713)
@@ -100,7 +97,7 @@ Oh My Zsh é instalado executando um dos seguintes comandos no seu terminal. Voc
 | **wget**  | `sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`   |
 | **fetch** | `sh -c "$(fetch -o - https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"` |
 
-Alternativamente, o instalador também está espelhado fora do GitHub. Usar esta URL pode ser necessário se você estiver em um país como China ou Índia (para certos ISPs), que bloqueia `raw.githubusercontent.com`:
+Alternativamente, o instalador também está espelhado fora do GitHub. Usar este URL pode ser necessário se você estiver em um país como China ou Índia (para certos ISPs), que bloqueia `raw.githubusercontent.com`:
 
 | Método    | Comando |
 | :-------- | : |
@@ -171,8 +168,8 @@ Confira-os!
 O tema do Robby é o padrão. Não é o mais sofisticado. Não é o mais simples. É apenas o certo
 (para ele).
 
-Ucece você encontrar um tema que gostaria de usar, você precisará editar o arquivo `~/.zshrc`. Você verá uma
-variável de ambiente (todas as letras maiúsculas) ali que parece com:
+Uce você encontrar um tema que gostaria de usar, você precisará editar o arquivo `~/.zshrc`. Você verá uma
+variável de ambiente (tudo em maiúsculas) ali que parece com:
 
 ```sh
 ZSH_THEME="robbyrussell"
@@ -232,14 +229,14 @@ Se você souber apenas quais temas não gosta, pode adicioná-los de forma semel
 ZSH_THEME_RANDOM_IGNORED=(pygmalion tjkirch_mod)
 ```
 
-### FAQ
+### Perguntas Frequentes
 
-Se você tiver mais algumas perguntas ou problemas, talvez encontre uma solução na nossa
+Se você tiver mais algumas perguntas ou problemas, talvez encontre uma solução em nosso
 [FAQ](https://github.com/ohmyzsh/ohmyzsh/wiki/FAQ).
 
 ## Tópicos Avançados
 
-Se você é o tipo que gosta de se sujar as mãos, estas seções podem ressoar.
+Se você é do tipo que gosta de se sujar as mãos, estas seções podem ressoar.
 
 ### Instalação Avançada
 
@@ -267,7 +264,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 Se você estiver na China, Índia ou em outro país que bloqueia `raw.githubusercontent.com`, pode precisar substituir a URL para `https://install.ohmyz.sh` para que a instalação funcione.
 
-#### Instalando a partir de um Repositório Fazendo Fork
+#### Instalando a partir de um repositório bifurcado
 
 O script de instalação também aceita essas variáveis para permitir a instalação de um repositório diferente:
 
@@ -275,13 +272,14 @@ O script de instalação também aceita essas variáveis para permitir a instala
   o instalador procurará um repositório em `https://github.com/{owner}/{repository}`.
 
 - `REMOTE` (padrão: `https://github.com/${REPO}.git`): isso é a URL completa do repositório git clone. Você
-  pode usar essa configuração se quiser instalar a partir de um fork que não está no GitHub (GitLab, Bitbucket...) ou se
+  pode usar essa configuração se quiser instalar a partir de uma bifurcação que não está no GitHub (GitLab, Bitbucket...) ou se
   quiser clonar com SSH em vez de HTTPS (`git@github.com:user/project.git`).
 
   _NOTE: é incompatível com definir a variável `REPO`. Essa configuração terá prioridade._
 
 - `BRANCH` (padrão: `master`): você pode usar essa configuração se quiser alterar a branch padrão para ser
-  verificada ao clonar o repositório. Isso pode ser útil para testar um Pull Request, ou se quiser usar uma branch diferente de `master`.
+  verificada ao clonar o repositório. Isso pode ser útil para testar uma Pull Request, ou se quiser usar
+  uma branch diferente de `master`.
 
 Por exemplo:
 
@@ -305,7 +303,7 @@ cp ~/.zshrc ~/.zshrc.orig
 
 ##### 3. Create A New Zsh Configuration File <!-- omit in toc -->
 
-Você pode criar um novo arquivo de configuração zsh copiando o modelo que incluímos para você.
+Você pode criar um novo arquivo de configuração do zsh copiando o modelo que incluímos para você.
 
 ```sh
 cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
@@ -341,12 +339,12 @@ Se você tem muitas funções que combinam bem, pode colocá-las como um arquivo
 
 Se você quiser substituir a funcionalidade de um plugin distribuído com Oh My Zsh, crie um plugin com o mesmo nome na pasta `custom/plugins/` e ele será carregado em vez do que está em `plugins/`.
 
-### Habilitar o GNU ls em sistemas macOS e freeBSD
+### Ativar o GNU ls em sistemas macOS e FreeBSD
 
 <a name="enable-gnu-ls"></a>
 
-O comportamento padrão no Oh My Zsh é usar o BSD `ls` em sistemas macOS e freeBSD. Se o GNU `ls` estiver instalado
-(como o comando `gls`), você pode escolher usá-lo em vez disso. Para fazê-lo, você pode usar a configuração baseada em zstyle antes
+O comportamento padrão no Oh My Zsh é usar o BSD `ls` em sistemas macOS e FreeBSD. Se o GNU `ls` estiver instalado
+(como o comando `gls`), você pode escolher usá-lo em vez disso. Para fazê-lo, você pode usar uma configuração baseada em zstyle antes
 de carregar `oh-my-zsh.sh`:
 
 ```zsh
@@ -360,7 +358,7 @@ _Nota: isso não é compatível com `DISABLE_LS_COLORS=true`_
 <a name="remove-directories-aliases"></a>
 
 Se você quiser pular os aliases padrão do Oh My Zsh (aqueles definidos nos arquivos `lib/*`) ou aliases de plugin, você pode usar
-as configurações abaixo no seu arquivo `~/.zshrc`, **antes do Oh My Zsh ser carregado**. Note que existem muitas formas diferentes de pular aliases, dependendo das suas necessidades.
+as configurações abaixo no seu arquivo `~/.zshrc`, **antes que o Oh My Zsh seja carregado**. Note que existem muitas formas diferentes de pular aliases, dependendo das suas necessidades.
 
 ```sh
 # Skip all aliases, in lib files and enabled plugins
@@ -408,10 +406,10 @@ zstyle ':omz:lib:directories' aliases no
 
 ### Prompt git assíncrono
 
-Prompt funções assíncronas são um recurso experimental (incluído em 3 de abril de 2024) que permite que Oh My Zsh renderize
+Prompt funções assíncronas são uma funcionalidade experimental (incluída em 3 de abril de 2024) que permite ao Oh My Zsh renderizar
 informações do prompt de forma assíncrona. Isso pode melhorar o desempenho da renderização do prompt, mas pode não funcionar bem
 com algumas configurações. Esperamos que isso não seja um problema, mas se você estiver vendo problemas com esse novo recurso, você pode
-desativá-lo definindo o seguinte em seu arquivo .zshrc, antes que Oh My Zsh seja carregado:
+desativá-lo definindo o seguinte em seu arquivo .zshrc, antes que o Oh My Zsh seja carregado:
 
 ```sh
 zstyle ':omz:alpha:lib:git' async-prompt no
@@ -495,7 +493,7 @@ Magia! 🎉
 
 ## Desinstalando Oh My Zsh
 
-Oh My Zsh não é para todos. Vamos sentir falta de você, mas queremos que isso seja uma separação fácil.
+Oh My Zsh não é para todos. Vamos sentir falta de você, mas queremos que esse processo seja fácil.
 
 Se quiser desinstalar `oh-my-zsh`, basta executar `uninstall_oh_my_zsh` a partir da linha de comando. Ele removerá
 ele mesmo e reverterá sua configuração anterior de `bash` ou `zsh`.
@@ -546,7 +544,7 @@ para você exibir seu amor por Oh My Zsh. Novamente, você será o assunto da ci
 
 ## Licença
 
-Oh My Zsh é liberado sob a [licença MIT](../LICENSE.txt).
+Oh My Zsh é lançado sob a [licença MIT](../LICENSE.txt).
 
 ## Sobre o Planet Argon
 
